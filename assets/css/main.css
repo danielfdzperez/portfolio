@@ -2428,7 +2428,7 @@ input, select, textarea {
 		}
 
 	ul {
-		list-style: disc;
+		/*list-style: disc;*/
 		margin: 0 0 2em 0;
 		padding-left: 1em;
 	}
@@ -2864,14 +2864,14 @@ input, select, textarea {
 
 	.statistics {
 		display: -moz-flex;
-		display: -webkit-flex;
 		display: -ms-flex;
-		display: flex;
 		width: 100%;
 		margin: 0 0 3em 0;
 		padding: 0;
 		list-style: none;
 		cursor: default;
+		/*display: -webkit-flex;
+		display: flex;*/
 	}
 
 		.statistics li {
@@ -2915,12 +2915,14 @@ input, select, textarea {
 
 			.statistics li:first-child {
 				border-top-left-radius: 8px;
-				border-bottom-left-radius: 8px;
+                border-top-right-radius:8px;
+				/*border-bottom-left-radius: 8px;*/
 			}
 
 			.statistics li:last-child {
-				border-top-right-radius: 8px;
+				/*border-top-right-radius: 8px;*/
 				border-bottom-right-radius: 8px;
+				border-bottom-left-radius: 8px;
 			}
 
 			.statistics li .icon {
