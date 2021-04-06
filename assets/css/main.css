@@ -3786,3 +3786,23 @@ input, select, textarea {
 			}
 
 		}
+
+/* Image With Paragraph */
+
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.imageRight{
+    float: right;
+    width: 50%;
+}
+
+
+.centeredImage{
+      display: block;
+  margin-left: auto;
+  margin-right: auto;
+  }
